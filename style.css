@@ -1,0 +1,93 @@
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+#top-title{
+    font-size: 60px;
+    border-left: 5px solid rgb(230, 71, 71);
+}
+#second-title{
+    font-size:45px;
+    text-align: center;
+}
+#navy-blue{
+    color:rgb(21, 21, 66);
+}
+.same-size{
+    font-size:35px;
+}
+.special-word{
+    color:orange;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(224, 84, 84), rgb(243, 118, 118));
+    color:white;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+#top-section{
+    display:flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+#second-section{
+    display:flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+#third-section{
+    display:flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+}
+.share-width{
+    width:50%;
+    margin-left:10%;
+    margin-top:5%;
+    margin-right: 5%;
+}
+.share-width img{
+    width:80%;
+}
+.share-width-new2{
+    width:50%;
+    margin-top:5%;
+    margin-right: 15%;
+}
+.share-width-new2 img{
+    width:80%;
+    margin-left: 30%;
+}
+
+.text{
+    text-align: justify;
+}
+
+.share-width-new{
+    width:30%;
+    margin:10px 30px 0px;
+    border-radius: 50px;
+    padding:5px 10px 80px;
+}
+.share-width-new img{
+    width:60%;
+    margin-left: 70px;
+    background-image: url(images/shapes/);
+}
+#first-div{
+    background-color:rgb(217, 227, 241);
+    margin-left: 150px;
+}
+#second-div{
+    background-color:rgb(245, 235, 230);
+}
+#third-div{
+    background-color:rgb(226, 247, 222);
+    margin-right: 150px;
+}
