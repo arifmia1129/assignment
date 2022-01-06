@@ -7,7 +7,7 @@ body{
     font-size: 60px;
     border-left: 5px solid rgb(230, 71, 71);
 }
-#second-title{
+.second-title{
     font-size:45px;
     text-align: center;
 }
@@ -31,20 +31,51 @@ body{
     display:flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 #second-section{
     display:flex;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 #third-section{
     display:flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+}
+#fourth-section{
+    display:flex;
+    margin-bottom: 150px;
+}
+#last-section{
+    display:flex;
+    margin-bottom: 150px;
+}
+#last1{
+    width:50%;
+    margin-right: 10%;
+    padding:50px;
+    margin-top:5%;
+}
+#last2{
+    width:50%;
+    box-shadow: 5px 5px 10px gray;
+    margin-right: 10%;
+    margin-left:5%;
+    margin-top:5%;
+    padding:10px 10px 100px;
+
+}
+#last1 img{
+    width:30%;
+    height: 70%;
+}
+#last2 img{
+    width:35%;
+    margin-left: 30%;
 }
 .share-width{
     width:50%;
@@ -54,17 +85,33 @@ body{
 }
 .share-width img{
     width:80%;
+    margin-left:5%;
 }
 .share-width-new2{
     width:50%;
     margin-top:5%;
-    margin-right: 15%;
+    margin-right:20%;
 }
-.share-width-new2 img{
-    width:80%;
-    margin-left: 30%;
+.first-front-image{
+    width:25%;
+    margin-left: 10%;
+    position:absolute;
 }
-
+.first-back-image{
+    width:45%;
+    margin-top:15%;
+    margin-left:15%;
+}
+#second-front-image{
+    width:23%;
+    margin-right: 30%;
+    position:absolute;
+}
+#second-back-image{
+    width:40%;
+    margin-top:40%;
+    margin-left:55%;
+}
 .text{
     text-align: justify;
 }
@@ -81,13 +128,31 @@ body{
     background-image: url(images/shapes/);
 }
 #first-div{
-    background-color:rgb(217, 227, 241);
+    background-color:rgb(222, 229, 238);
     margin-left: 150px;
 }
 #second-div{
-    background-color:rgb(245, 235, 230);
+    background-color:rgb(235, 229, 226);
 }
 #third-div{
-    background-color:rgb(226, 247, 222);
+    background-color:rgb(227, 233, 225);
     margin-right: 150px;
+}
+footer{
+    background-color: rgb(29, 29, 54);
+}
+#last-one{
+    font-family:cursive;
+    color:white;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+#year{
+    color:rgb(228, 90, 66);
+}
+#last{
+    color:white;
+    font-weight: 500;
+    text-align: center;
 }
