@@ -67,7 +67,7 @@ body{
     margin-right: 10%;
     margin-left:5%;
     margin-top:5%;
-    padding:10px 10px 100px;
+    padding:20px 50px 80px;
 
 }
 #last1 img{
@@ -150,7 +150,7 @@ footer{
     text-align: center;
 }
 #year{
-    color:rgb(228, 90, 66);
+    color:rgb(255, 75, 62);
 }
 #last{
     color:white;
