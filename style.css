@@ -22,9 +22,10 @@ body{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(224, 84, 84), rgb(243, 118, 118));
+    background-image: linear-gradient(rgb(252, 108, 108), rgb(233, 119, 119));
     color:white;
-    padding:10px 20px;
+    font-weight: 600;
+    padding:15px 30px;
     border-radius: 5px;
 }
 #top-section{
@@ -120,7 +121,7 @@ body{
     width:30%;
     margin:10px 30px 0px;
     border-radius: 50px;
-    padding:5px 10px 80px;
+    padding:5px 30px 80px;
 }
 .share-width-new img{
     width:60%;
@@ -128,14 +129,14 @@ body{
     background-image: url(images/shapes/);
 }
 #first-div{
-    background-color:rgb(222, 229, 238);
+    background-color:rgb(220, 235, 255);
     margin-left: 150px;
 }
 #second-div{
-    background-color:rgb(235, 229, 226);
+    background-color:rgb(255, 234, 223);
 }
 #third-div{
-    background-color:rgb(227, 233, 225);
+    background-color:rgb(234, 255, 227);
     margin-right: 150px;
 }
 footer{
